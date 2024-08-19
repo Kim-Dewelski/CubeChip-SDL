@@ -13,7 +13,7 @@ if(NOT SDL3_FOUND)
   FetchContent_Declare(
       SDL
       GIT_REPOSITORY https://github.com/libsdl-org/SDL.git
-      GIT_TAG main
+      GIT_TAG 405693175db7d5c076588f4cce4e1add48d8e9dd
       GIT_SHALLOW TRUE
       GIT_PROGRESS TRUE
   )
